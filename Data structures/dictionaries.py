@@ -129,6 +129,7 @@ print( not(x> 3 and x < 10 ))
 # else:
 #     print("no")
 
+
 if 4 == 7:
     print("yes")
 elif(4>7):

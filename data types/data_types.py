@@ -13,11 +13,13 @@ range
 
 '''
 
+
 class_list = ['sandra', 1, 2.1, 'bimpe',False, True ]
 # class_list.remove(1)
 # class_list.append("ken")
 # class_list.insert(3, 'travis')
 # print(class_list)
+money = True
 
 print(class_list[-3:-3])
 # len()
@@ -77,3 +79,6 @@ c = 4j
 
 # noun = set(('yam', 9, 3.9, 23j))
 # print(noun)
+
+name =2.666
+print( 'fdkjkfdkj +' ' +  '  '  + name )

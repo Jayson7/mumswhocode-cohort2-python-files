@@ -1,6 +1,7 @@
 
 # A simple python counter using loop, conditional statements and exceptions
 
+
 try:
     
     inputs = input("Enter your favourite number from range 1- 100: ")
