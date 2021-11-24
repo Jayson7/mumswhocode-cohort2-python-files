@@ -81,4 +81,3 @@ c = 4j
 # print(noun)
 
 name =2.666
-print( 'fdkjkfdkj +' ' +  '  '  + name )
