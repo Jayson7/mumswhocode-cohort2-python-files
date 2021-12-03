@@ -92,4 +92,5 @@ class Student(Person):
 
 x = Student("Mike", "Olsen", 2019)
 print(x.graduationyear)
+# If you add a method in the child class with the same name as a function in the parent class, the inheritance of the parent method will be overridden.
 # -----------------------------------------------
