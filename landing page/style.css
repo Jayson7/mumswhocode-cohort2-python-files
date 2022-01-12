@@ -1,0 +1,26 @@
+body {
+    background-color: rgb(14, 17, 44);
+    text-align: center;
+    color: blanchedalmond;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.land {
+    color: goldenrod;
+    font-size: 4rem;
+}
+
+#land2 {
+    font-family: monospace;
+    color: darkred;
+}
+
+p {
+    padding-left: 300px;
+    padding-right: 300px;
+}
