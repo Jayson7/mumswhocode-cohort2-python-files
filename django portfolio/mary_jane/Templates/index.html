@@ -117,7 +117,7 @@
                 <div class="carousel-item">
                     <img src="{% static 'images/js.jpg' %}" class="d-block w-100" alt="..." />
                     <div class="carousel-caption d-none d-md-block">
-                        <h5>Python Programming</h5>
+                        <h5>Python Full Stack</h5>
                         <p>
                             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum porro recusandae quisquam neque vel excepturi, deserunt eligendi sunt optio assumenda!
                         </p>
@@ -149,70 +149,75 @@
     <div class="section4">
         <div class="sec4-logo">
             <h2>Projects</h2>
+            <div></div>
         </div>
         <div class="boxes">
             <div class="box1">
                 <div class="mini-img">
-                    <img src="" alt="" srcset="" />
+                    <img src="{% static 'images/demo.png' %}" alt="" srcset="" />
                 </div>
                 <div class="mini-body">
                     <h6>Google</h6>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, nostrum.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, nostrum. Lorem ipsum dolor sit amet.
                     </p>
                 </div>
                 <div class="mini-btn">
                     <div class="d-flex justify-content-around align-items-center">
-                        <div class="btn btn-sucess">View</div>
+                        <div class="btn btn-success mx-3">View</div>
+                        <div class="btn btn-info mx-3">Github</div>
                     </div>
                 </div>
             </div>
             <div class="box2">
                 <div class="mini-img">
-                    <img src="" alt="" srcset="" />
+                    <img src="{% static 'images/demo.png' %}" alt="" srcset="" />
                 </div>
                 <div class="mini-body">
-                    <h6>Google</h6>
+                    <h6>Yahoo.com</h6>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, nostrum.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, nostrum. Lorem ipsum dolor sit amet.
                     </p>
                 </div>
                 <div class="min2-btn">
                     <div class="d-flex justify-content-around align-items-center">
-                        <div class="btn btn-sucess">View</div>
+                        <div class="btn btn-success mx-3">View</div>
+                        <div class="btn btn-info mx-3">Github</div>
                     </div>
                 </div>
             </div>
 
             <div class="box3">
                 <div class="mini-img">
-                    <img src="" alt="" srcset="" />
+                    <img src="{% static 'images/demo.png' %}" alt="" srcset="" />
                 </div>
                 <div class="mini-body">
-                    <h6>Google</h6>
+                    <h6>Kuda App</h6>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, nostrum.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, nostrum. Lorem ipsum dolor sit amet.
                     </p>
                 </div>
                 <div class="mini-btn">
                     <div class="d-flex justify-content-around align-items-center">
-                        <div class="btn btn-sucess">View</div>
+                        <div class="btn btn-success mx-3">View</div>
+                        <div class="btn btn-info mx-3">Github</div>
                     </div>
                 </div>
             </div>
             <div class="box4">
                 <div class="mini-img">
-                    <img src="" alt="" srcset="" />
+                    <img src="{% static 'images/demo.png' %}" alt="" srcset="" />
                 </div>
                 <div class="mini-body">
-                    <h6>Google</h6>
+                    <h6>FirstBank</h6>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, nostrum.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, nostrum. Lorem ipsum dolor sit amet.
                     </p>
                 </div>
                 <div class="mini-btn">
                     <div class="d-flex justify-content-around align-items-center">
-                        <div class="btn btn-sucess">View</div>
+                        <div class="btn btn-success mx-3">View</div>
+                        <div class="btn btn-info mx-3">Github</div>
                     </div>
                 </div>
             </div>
@@ -223,14 +228,58 @@
 
     <!-- section5 -->
 
-    <div class="section5"></div>
+    <div class="section5">
+        <div class="contacts container">
+            <h2 class="text-center">Contact Me</h2>
+            <div class="my-5">
+                <form>
+                    <div class="form-row">
+                        <div class="col-md-6 mb-3">
+                            <label for="validationDefault01">First name</label>
+                            <input type="text" class="form-control" id="validationDefault01" value="Mark" required />
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label for="validationDefault02">Last name</label>
+                            <input type="text" class="form-control" id="validationDefault02" value="Otto" required />
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="col-md-6 mb-3">
+                            <label for="validationDefault03">City</label>
+                            <input type="text" class="form-control" id="validationDefault03" required />
+                        </div>
+                        <div class="col-md-3 mb-3">
+                            <label for="validationDefault04">State</label>
+                            <select class="custom-select" id="validationDefault04" required>
+                  <option selected disabled value="">Choose...</option>
+                  <option>...</option>
+                </select>
+                        </div>
+                        <div class="col-md-3 mb-3">
+                            <label for="validationDefault05">Zip</label>
+                            <input type="text" class="form-control" id="validationDefault05" required />
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required />
+                            <label class="form-check-label" for="invalidCheck2">
+                  Agree to terms and conditions
+                </label>
+                        </div>
+                    </div>
+                    <button class="btn btn-primary" type="submit">Submit form</button>
+                </form>
+            </div>
+        </div>
+    </div>
 
     <!-- section5 ends here -->
 
     <!-- footer -->
-    <div class="footer">
-        <div class="footer-box1"></div>
-        <div class="footer-box2"></div>
+    <div class="footer row">
+        <div class="footer-box1 col"></div>
+        <div class="footer-box2 col"></div>
     </div>
     <!-- footer ends here -->
 </body>
