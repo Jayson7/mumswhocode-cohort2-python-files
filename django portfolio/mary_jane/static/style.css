@@ -211,5 +211,58 @@ body {
     margin-top: 10vh;
 }
 
+.carousel-caption h5 {
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.carousel-caption p {
+    font-size: 1.3rem;
+    /* font-weight: 900; */
+}
+
 
 /* section3 ends here  */
+
+
+/* section4 starts here  */
+
+.section4 {
+    margin-top: 5vh;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.box1 {
+    width: 300px;
+    margin: 20px;
+    height: 400px;
+    background-color: aqua;
+}
+
+.box2 {
+    width: 300px;
+    margin: 20px;
+    height: 400px;
+    background-color: aqua;
+}
+
+.box3 {
+    width: 300px;
+    margin: 20px;
+    height: 400px;
+    background-color: aqua;
+}
+
+.box4 {
+    width: 300px;
+    margin: 20px;
+    height: 400px;
+    background-color: aqua;
+}
+
+
+/* section4 ends here */
