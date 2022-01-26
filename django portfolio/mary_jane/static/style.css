@@ -346,13 +346,23 @@ body {
 
 /* section 5 ends here  */
 
+.footer-wraps {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    height: 60vh;
+    width: 100%;
+}
+
 .footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    height: 50vh;
-    background-color: black;
+    height: 100%;
+    flex-direction: column;
     width: 100%;
 }
 
