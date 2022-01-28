@@ -59,7 +59,7 @@ body {
     border-radius: 20%;
     background: url("./images/1.jpg");
     background-position: center;
-    /* background-repeat: no-repeat; */
+    background-repeat: no-repeat;
     background-size: cover;
 }
 
@@ -146,7 +146,7 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 85%;
+    height: 100%;
     width: 100%;
     flex-wrap: wrap;
 }
