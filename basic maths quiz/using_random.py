@@ -1,5 +1,6 @@
 # basic maths quiz 
-
+import random
+from random import randint
 import datetime 
 
 
@@ -51,10 +52,15 @@ def exam():
     
     try:
         #question1
-        question_one = input("What is the result of 78 x 67?: ")
-        answer_one = 5226
+        a = randint(1,105)
+        b = randint(105, 300)
+        c = a * b
+        print("first number", a)
+        print('second number', b)
+        question_one = input("What is the result of first number multiplied by second mumber: " )
+
         
-        if int(question_one) == answer_one:
+        if int(question_one) == c:
             print(correct_ans)
             final_score += 20
         else:
